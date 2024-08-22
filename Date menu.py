@@ -19,12 +19,14 @@ class Data:
             print(f'{self.dia} / 0{self.mês} / {self.ano}')
 
     
-        return
     def changeData(self):
+        
         self.dia = int(input('Digite o dia: '))
         self.mês = int(input('Digite o mês: '))
         self.ano = int(input('Digite o ano: '))
+        
     def birthday(self):
+        
         ba = int(input('Digite o ano do seu aniversário: '))
         print(f'Você tem {self.ano - ba} anos')
 
