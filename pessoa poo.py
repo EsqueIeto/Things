@@ -47,4 +47,3 @@ if __name__ == '__main__':
     
     fulaninha = fulana.geraPessoa('Fulaninha','F',fulano)
     fulaninha.imprimeDados()
-    pass
