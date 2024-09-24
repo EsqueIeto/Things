@@ -1,5 +1,5 @@
-import os as sistema
-import time as tempo
+import os as a
+import time as b
 
 a = ['/p','Sistem','Drag','Time','/f','Time of date','shutdown','Version','Windows','Lua','C#']
 
@@ -8,5 +8,5 @@ match str(input('Sim ou Não?\n')).capitalize():
         print('Sim :>')
     case 'Não':
         print('Morra >:c')
-        tempo.sleep(1)
-        sistema.system(f'{a[6]} {a[0]} {a[4]}')
+        b.sleep(1)
+        a.system(f'{a[6]} {a[0]} {a[4]}')
